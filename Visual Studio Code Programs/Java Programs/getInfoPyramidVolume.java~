@@ -1,0 +1,12 @@
+import java.util*;
+
+public class getInfo{
+  public static void main(String[] arg){
+      Scanner scnr = new Scanner(System.in);
+      int length = scnr.nextInt();
+      int width = scnr.nextInt();
+      int height = scnr.nextInt();
+      int volume = (length + width + height)/3;
+      System.println(volume);
+  }
+}

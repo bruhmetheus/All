@@ -1,0 +1,22 @@
+Fall 2023 - CS1083 - Section 005 - Project 1 – CalorieCount - written by Kalin Rodriguez
+Calories burnt on Monday: 
+Calories burnt on Tuesday: 
+Calories burnt on Wednesday: 
+Calories burnt on Thursday: 
+Calories burnt on Friday: 
+Calories burnt on Saturday: 
+Calories burnt on Sunday: 
+180
+95
+150
+280
+400
+320
+85
+Week  Monday  Tuesday  Wednesday  Thursday  Friday  Saturday  Sunday   Total/Week
+1     1-180    2-95    3-150      4-280     5-400   6-320     7-85   W1-1510
+2     8-180    9-95    10-150      11-280     12-400   13-320     14-85   W2-1510
+3     15-180    16-95    17-150      18-280     19-400   20-320     21-85   W3-1510
+4     22-180    23-95    24-150      25-280     26-400   27-320     28-85   W4-1510
+5     29-180    30-95    0-0   0-0   0-0   0-0   W5-275
+Total Calories: 6315

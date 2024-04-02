@@ -1,0 +1,6 @@
+import java.util.Scanner;
+public class PrintCustomizedDiamond {
+  public class void main(String[] args) {
+    Scanner scnr = new Scanner(System.in)
+    System.out.println("Enter a letter: ");
+    String letter = scnr.nextLine();

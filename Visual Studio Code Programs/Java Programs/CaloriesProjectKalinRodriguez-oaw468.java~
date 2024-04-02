@@ -1,0 +1,53 @@
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    Scanner scnr = new Scanner(System.in);
+    System.out.println("Fall 2023 - CS1083 - Section 005 - Project 1 – CalorieCount - written by Kalin Rodriguez");
+    int i;
+    // prompts for user input
+    System.out.println("Calories burnt on Monday: ");
+    System.out.println("Calories burnt on Tuesday: ");
+    System.out.println("Calories burnt on Wednesday: ");
+    System.out.println("Calories burnt on Thursday: ");
+    System.out.println("Calories burnt on Friday: ");
+    System.out.println("Calories burnt on Saturday: ");
+    System.out.println("Calories burnt on Sunday: ");
+    
+    
+    // variables for average calories burned for each of the week
+    int monCal = scnr.nextInt();
+    int tueCal = scnr.nextInt();
+    int wedCal = scnr.nextInt();
+    int thuCal = scnr.nextInt();
+    int friCal = scnr.nextInt();
+    int satCal = scnr.nextInt();
+    int sunCal = scnr.nextInt();
+    
+    
+    // first day of the month int and prompt
+    int firDay = scnr.nextInt();
+    System.out.println("First day of the month (0-Mon, 1-Tue, 2-Wed, 3-Thur, 4-Fri, 5-Sat, 6-Sun): ");
+    
+    
+    // variables for holidays
+    int firHoliday = scnr.nextInt();
+    int secHoliday = scnr.nextInt();
+    int thiHoliday = scnr.nextInt();
+    
+    // prompts for user input
+    System.out.println("First holiday of the month (day of the month): ");
+    System.out.println("Second holiday of the month (day of the month): ");
+    System.out.println("Third holiday of the month (day of the month): ");
+    
+    // weekdays table print
+    int weekNum;
+    System.out.println("Week     Monday     Tuesday     Wednesday     Thursday     Friday     Saturday     Sunday     Total/Week");
+    for (i = 0; i < 30; ++i) {
+      if (i = 6 || i = 13 || i = 20 || i = 26) {
+        weekNum = weekNum + 1;
+        System.out.print(weekNum);
+      }
+      System.out.print(i + 1 + "-");
+    }
+  }
+}

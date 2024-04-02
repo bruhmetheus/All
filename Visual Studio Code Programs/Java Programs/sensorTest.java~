@@ -1,0 +1,6 @@
+import java.util.Scanner;
+
+public class sensorTest{
+  public static void main(Strin []args) {
+  }
+}
